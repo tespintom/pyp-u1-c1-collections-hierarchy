@@ -25,7 +25,7 @@
 
 
 > **Popable**
-> Popable collections provide the `pop()` method which removes the last element from a sequence and returns it. This method must also update `start`/`end` as necessary.
+> Popable collections provide the `pop()` method which removes the first element from a sequence and returns it. This method must also update `start`/`end` as necessary.
 
 
 ----------
