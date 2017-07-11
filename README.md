@@ -9,8 +9,8 @@
 
 > **Sequenceable**
 > Sequenceable collections are well... *sequenceable*. They have both a `start` and an `end` and you can process all the items in between *in sequence*. They also provide a `get_elements()` method to retrieve all the elements of the collection.
-> `start`: This should be the first `Node` in the sequence
-> `end`: This should be the last `Node` in the sequence
+> `start`: This should be the first `Node` in the sequence and should be intialised to `None`
+> `end`: This should be the last `Node` in the sequence and should be initialised to `None`
 > `get_elements()`: returns a list containing all the **values** of the `Node`s in the collection **in order**.
 
 
