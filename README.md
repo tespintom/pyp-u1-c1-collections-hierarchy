@@ -18,21 +18,21 @@
 
 
 > **Appendable**
-> Collections that are appendable provide the `append(element)` method which adds an element *to the end* of the sequence. This method should update the `start` and `end` if necessary.
+> Collections that are appendable provide the `append(element)` method which adds a `Node` with a `value` of `element` *to the end* of the sequence. This method should update the `start` and `end` if necessary.
 
 
 ----------
 
 
 > **Popable**
-> Popable collections provide the `pop()` method which removes the first element from a sequence and returns it. This method must also update `start`/`end` as necessary.
+> Popable collections provide the `pop()` method which removes the first element from a sequence and returns its `value`. This method must also update `start`/`end` as necessary.
 
 
 ----------
 
 
 > **Pushable**
-> Pushable collections provide the `push(element)` method which adds a `Node` to the beginning of the sequence, updating `start`/`end` when necessary.
+> Pushable collections provide the `push(element)` method which adds a `Node` to the beginning of the sequence with a `value` of `element`, updating `start`/`end` when necessary.
 
 
 ## Running Tests
