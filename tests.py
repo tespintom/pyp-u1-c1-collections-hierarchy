@@ -74,7 +74,7 @@ def test_popable():
 
 
 def test_pushable():
-    class TestPushableSequence(Sequenceable, Pushable):
+    class TestPushableSequence(Sequenceable, Pushable, Appendable):
         pass
 
     sequence = TestPushableSequence()
